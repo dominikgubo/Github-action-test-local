@@ -12,5 +12,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           jira-token: ${{ secrets.PERSONAL_JIRA_TOKEN }}
           jira-base-url: https://dg-github-action-test.atlassian.net/
-          custom-issue-number-regexp: '^\d+'
           jira-project-key: 'KAN'
